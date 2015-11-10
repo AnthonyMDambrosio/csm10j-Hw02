@@ -15,7 +15,7 @@ public class Program
         Bond bondObj = new Bond("U.S", 4, 200);
         BankAccount bankAccountObj = new BankAccount("Chase", 1000);
         House houseObj = new House("Mrs. Dude", 400000, 200000);
-        Car carObj = new Car("Rebecca", 3000, 1000);
+        Car carObj = new Car("civic", 3000, 1000);
         Wealth wealthObj = new Wealth();
         
         wealthObj.addAsset( bankAccountObj);
